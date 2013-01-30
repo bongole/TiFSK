@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		001F173F16B8F6CE00BB7D27 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6C816B8E96200753501 /* AudioQueueObject.m */; };
+		001F174016B8F6CE00BB7D27 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6CA16B8E96200753501 /* AudioSignalAnalyzer.m */; };
+		001F174116B8F6CE00BB7D27 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6CC16B8E96200753501 /* AudioSignalGenerator.m */; };
+		001F174216B8F6CE00BB7D27 /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6D616B8E96200753501 /* MultiDelegate.m */; };
+		001F174316B8F6DA00BB7D27 /* AudioQueueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6C716B8E96200753501 /* AudioQueueObject.h */; };
+		001F174416B8F6DA00BB7D27 /* AudioSignalAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6C916B8E96200753501 /* AudioSignalAnalyzer.h */; };
+		001F174516B8F6DA00BB7D27 /* AudioSignalGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6CB16B8E96200753501 /* AudioSignalGenerator.h */; };
+		001F174616B8F6DA00BB7D27 /* CharReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6CD16B8E96200753501 /* CharReceiver.h */; };
+		001F174716B8F6DA00BB7D27 /* FSKByteQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6CE16B8E96200753501 /* FSKByteQueue.h */; };
+		001F174816B8F6DA00BB7D27 /* FSKModemConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6CF16B8E96200753501 /* FSKModemConfig.h */; };
+		001F174916B8F6DA00BB7D27 /* FSKRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6D016B8E96200753501 /* FSKRecognizer.h */; };
+		001F174A16B8F6DA00BB7D27 /* FSKSerialGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6D216B8E96200753501 /* FSKSerialGenerator.h */; };
+		001F174B16B8F6DA00BB7D27 /* lockfree.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6D416B8E96200753501 /* lockfree.h */; };
+		001F174C16B8F6DA00BB7D27 /* MultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6D516B8E96200753501 /* MultiDelegate.h */; };
+		001F174D16B8F6DA00BB7D27 /* PatternRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 004EA6D716B8E96200753501 /* PatternRecognizer.h */; };
+		001F174E16B8F79100BB7D27 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6D116B8E96200753501 /* FSKRecognizer.mm */; };
+		001F174F16B8F79100BB7D27 /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 004EA6D316B8E96200753501 /* FSKSerialGenerator.mm */; };
+		004EA6DA16B8E98000753501 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004EA6D916B8E98000753501 /* AudioToolbox.framework */; };
+		004EA6DC16B8E98C00753501 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004EA6DB16B8E98C00753501 /* AVFoundation.framework */; };
+		24DD6CF91134B3F500162E58 /* ComBongoleTiFskModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComBongoleTiFskModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComBongoleTiFskModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComBongoleTiFskModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* ComBongoleTiFsk_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComBongoleTiFsk_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = fsk_module;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004EA6C716B8E96200753501 /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueObject.h; sourceTree = "<group>"; };
+		004EA6C816B8E96200753501 /* AudioQueueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueObject.m; sourceTree = "<group>"; };
+		004EA6C916B8E96200753501 /* AudioSignalAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalAnalyzer.h; sourceTree = "<group>"; };
+		004EA6CA16B8E96200753501 /* AudioSignalAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalAnalyzer.m; sourceTree = "<group>"; };
+		004EA6CB16B8E96200753501 /* AudioSignalGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalGenerator.h; sourceTree = "<group>"; };
+		004EA6CC16B8E96200753501 /* AudioSignalGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalGenerator.m; sourceTree = "<group>"; };
+		004EA6CD16B8E96200753501 /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharReceiver.h; sourceTree = "<group>"; };
+		004EA6CE16B8E96200753501 /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKByteQueue.h; sourceTree = "<group>"; };
+		004EA6CF16B8E96200753501 /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKModemConfig.h; sourceTree = "<group>"; };
+		004EA6D016B8E96200753501 /* FSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKRecognizer.h; sourceTree = "<group>"; };
+		004EA6D116B8E96200753501 /* FSKRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKRecognizer.mm; sourceTree = "<group>"; };
+		004EA6D216B8E96200753501 /* FSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKSerialGenerator.h; sourceTree = "<group>"; };
+		004EA6D316B8E96200753501 /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKSerialGenerator.mm; sourceTree = "<group>"; };
+		004EA6D416B8E96200753501 /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockfree.h; sourceTree = "<group>"; };
+		004EA6D516B8E96200753501 /* MultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDelegate.h; sourceTree = "<group>"; };
+		004EA6D616B8E96200753501 /* MultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDelegate.m; sourceTree = "<group>"; };
+		004EA6D716B8E96200753501 /* PatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternRecognizer.h; sourceTree = "<group>"; };
+		004EA6D916B8E98000753501 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		004EA6DB16B8E98C00753501 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24DD6CF71134B3F500162E58 /* ComBongoleTiFskModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComBongoleTiFskModule.h; path = Classes/ComBongoleTiFskModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComBongoleTiFskModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComBongoleTiFskModule.m; path = Classes/ComBongoleTiFskModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComBongoleTiFskModuleAssets.h; path = Classes/ComBongoleTiFskModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComBongoleTiFskModuleAssets.m; path = Classes/ComBongoleTiFskModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComBongoleTiFsk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBongoleTiFsk_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComBongoleTiFsk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComBongoleTiFsk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004EA6DC16B8E98C00753501 /* AVFoundation.framework in Frameworks */,
+				004EA6DA16B8E98000753501 /* AudioToolbox.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004EA6C616B8E96200753501 /* FSK */ = {
+			isa = PBXGroup;
+			children = (
+				004EA6C716B8E96200753501 /* AudioQueueObject.h */,
+				004EA6C816B8E96200753501 /* AudioQueueObject.m */,
+				004EA6C916B8E96200753501 /* AudioSignalAnalyzer.h */,
+				004EA6CA16B8E96200753501 /* AudioSignalAnalyzer.m */,
+				004EA6CB16B8E96200753501 /* AudioSignalGenerator.h */,
+				004EA6CC16B8E96200753501 /* AudioSignalGenerator.m */,
+				004EA6CD16B8E96200753501 /* CharReceiver.h */,
+				004EA6CE16B8E96200753501 /* FSKByteQueue.h */,
+				004EA6CF16B8E96200753501 /* FSKModemConfig.h */,
+				004EA6D016B8E96200753501 /* FSKRecognizer.h */,
+				004EA6D116B8E96200753501 /* FSKRecognizer.mm */,
+				004EA6D216B8E96200753501 /* FSKSerialGenerator.h */,
+				004EA6D316B8E96200753501 /* FSKSerialGenerator.mm */,
+				004EA6D416B8E96200753501 /* lockfree.h */,
+				004EA6D516B8E96200753501 /* MultiDelegate.h */,
+				004EA6D616B8E96200753501 /* MultiDelegate.m */,
+				004EA6D716B8E96200753501 /* PatternRecognizer.h */,
+			);
+			name = FSK;
+			path = Classes/FSK;
+			sourceTree = "<group>";
+		};
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComBongoleTiFsk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* fsk_module */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = fsk_module;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004EA6DB16B8E98C00753501 /* AVFoundation.framework */,
+				004EA6D916B8E98000753501 /* AudioToolbox.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				004EA6C616B8E96200753501 /* FSK */,
+				24DE9E0F11C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComBongoleTiFskModule.h */,
+				24DD6CF81134B3F500162E58 /* ComBongoleTiFskModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComBongoleTiFsk_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001F174316B8F6DA00BB7D27 /* AudioQueueObject.h in Headers */,
+				001F174416B8F6DA00BB7D27 /* AudioSignalAnalyzer.h in Headers */,
+				001F174516B8F6DA00BB7D27 /* AudioSignalGenerator.h in Headers */,
+				001F174616B8F6DA00BB7D27 /* CharReceiver.h in Headers */,
+				001F174716B8F6DA00BB7D27 /* FSKByteQueue.h in Headers */,
+				001F174816B8F6DA00BB7D27 /* FSKModemConfig.h in Headers */,
+				001F174916B8F6DA00BB7D27 /* FSKRecognizer.h in Headers */,
+				001F174A16B8F6DA00BB7D27 /* FSKSerialGenerator.h in Headers */,
+				001F174B16B8F6DA00BB7D27 /* lockfree.h in Headers */,
+				001F174C16B8F6DA00BB7D27 /* MultiDelegate.h in Headers */,
+				001F174D16B8F6DA00BB7D27 /* PatternRecognizer.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComBongoleTiFsk_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComBongoleTiFskModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* fsk_module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "fsk_module" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fsk_module;
+			productName = fsk_module;
+			productReference = D2AAC07E0554694100DB518D /* libComBongoleTiFsk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "fsk_module" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* fsk_module */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* fsk_module */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001F174E16B8F79100BB7D27 /* FSKRecognizer.mm in Sources */,
+				001F174F16B8F79100BB7D27 /* FSKSerialGenerator.mm in Sources */,
+				001F173F16B8F6CE00BB7D27 /* AudioQueueObject.m in Sources */,
+				001F174016B8F6CE00BB7D27 /* AudioSignalAnalyzer.m in Sources */,
+				001F174116B8F6CE00BB7D27 /* AudioSignalGenerator.m in Sources */,
+				001F174216B8F6CE00BB7D27 /* MultiDelegate.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComBongoleTiFskModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComBongoleTiFskModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* fsk_module */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComBongoleTiFsk.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComBongoleTiFsk_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComBongoleTiFsk;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/ComBongoleTiFsk.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComBongoleTiFsk_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComBongoleTiFsk;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComBongoleTiFsk.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComBongoleTiFsk_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComBongoleTiFsk;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/ComBongoleTiFsk.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComBongoleTiFsk_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComBongoleTiFsk;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "fsk_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "fsk_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
