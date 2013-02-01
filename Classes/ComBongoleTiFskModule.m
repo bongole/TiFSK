@@ -68,8 +68,10 @@
 	[super dealloc];
     
     [analyzer stop];
+    [generator stop];
     RELEASE_TO_NIL(analyzer);
     RELEASE_TO_NIL(recognizer);
+    RELEASE_TO_NIL(generator);
 }
 
 #pragma mark Internal Memory Management
