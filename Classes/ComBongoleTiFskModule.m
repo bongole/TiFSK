@@ -37,6 +37,10 @@
     AVAudioSession *session = [AVAudioSession sharedInstance];
     session.delegate = self;
     [session setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+    UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+    AudioSessionSetProperty(kAudioSessionProperty_OverrideAudioRoute,
+                            sizeof(audioRouteOverride), &audioRouteOverride);
+    
     [session setActive:YES error:nil];
     
     recognizer = [[[FSKRecognizer alloc] init] retain];
